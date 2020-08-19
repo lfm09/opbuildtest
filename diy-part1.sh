@@ -12,9 +12,9 @@
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+#sed -i '$a src-git maxminddb https://github.com/jerrykuku/lua-maxminddb' feeds.conf.default
+#sed -i '$a src-git vssr https://github.com/jerrykuku/luci-app-vssr' feeds.conf.default
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-sed -i '$a src-git lienol https://github.com/lfm09/openwrt-package' feeds.conf.default
-sed -i '$a src-git maxminddb https://github.com/jerrykuku/lua-maxminddb' feeds.conf.default
-sed -i '$a src-git vssr https://github.com/jerrykuku/luci-app-vssr' feeds.conf.default
+sed -i '$a src-git lienol https://github.com/lfm09/Lienol-openwrt-package' feeds.conf.default
