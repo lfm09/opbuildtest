@@ -12,7 +12,7 @@
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.conf.default
+#sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.conf.default
 
 # Add a feed source
-sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package^7bfe67fb6a4ecb9a4605b7b440ef3788d6b509d0' feeds.conf.default
